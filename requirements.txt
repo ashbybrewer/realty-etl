@@ -1,0 +1,20 @@
+# RealtyETL — Python dependencies
+# Pin major versions; allow patch updates within major
+
+# Core ETL
+duckdb>=0.10.0,<1.0.0
+pandas>=2.1.0,<3.0.0
+pydantic>=2.5.0,<3.0.0
+pydantic-settings>=2.1.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# Orchestration
+prefect>=2.14.0,<3.0.0
+
+# Dashboard
+streamlit>=1.30.0,<2.0.0
+plotly>=5.18.0,<6.0.0
+
+# Utilities
+tenacity>=8.2.0,<9.0.0     # retry helper (used optionally)
+pyarrow>=14.0.0,<16.0.0    # DuckDB Parquet export support
