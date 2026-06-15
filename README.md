@@ -1,5 +1,20 @@
 # RealtyETL — Property Profitability Intelligence Pipeline
 
+## ▶ Run it live
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=ashbybrewer/realty-etl&branch=main&mainModule=app.py)
+
+**One-click deploy:** click the badge → sign in with GitHub → Deploy. The app builds its DuckDB warehouse on first run; no external API keys required for the demo dataset.
+
+**Run locally:**
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+
 > **Production-grade ETL + BI Dashboard** | Python 3.11 · DuckDB · Prefect · Streamlit
 
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://python.org)
