@@ -167,7 +167,7 @@ realty_etl/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourhandle/realty-etl.git
+git clone https://github.com/ashbybrewer/realty-etl.git
 cd realty-etl
 
 python -m venv .venv
